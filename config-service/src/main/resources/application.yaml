@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: configs-server
+          uri: https://github.com/Fabian205/microservicios_nobasys
+          search-paths: config-data
+  application:
+    name: config-service
