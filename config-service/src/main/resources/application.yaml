@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: configs-server
+          default-label: eureka
           uri: https://github.com/Fabian205/microservicios_nobasys
           search-paths: config-data
   application:
